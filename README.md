@@ -1,8 +1,12 @@
-# React + Vite
+This Application is my submission for Second Semester Examination @ Alt School of Engineering
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a Counter App that contains a Custom hook where you can find 
+increment, decrement, reset and a set value function.
 
-Currently, two official plugins are available:
+It allows you to count upwards, decrease your count and also reset the count, perhaps you want to 
+include your own value, there is an available set count option for you.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This App also include a 404 error page that you can access from the 
+Homepage or by using a wrong url in the application.
+
+You also get to test the Error Boundary that is included in the App. 
