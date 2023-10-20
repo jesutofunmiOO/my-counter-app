@@ -2,7 +2,7 @@ import { useCustomCounter } from "./hooks/useCustomCounter";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import "./App.css";
+
 
 function CounterComponent() {
   const [count, increment, decrement, reset, setValue] = useCustomCounter();
