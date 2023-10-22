@@ -3,7 +3,7 @@
 ```bash
 This Application is my submission for Second Semester Examination @ Alt School of Engineering
 
-This is a Counter App that contains;
+This is a Counter App that contains
 Custom hook where you can find 
 - Increment
 - Decrement
