@@ -1,51 +1,31 @@
-
-import { StrictMode } from 'react';
-import {createBrowserRouter, createRoutesFromElements,
-  Route, RouterProvider} from "react-router-dom";
-import Root from "./Route/root";
-import CounterComponent from "./CounterComponent";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
-import { Link } from "react-router-dom";
-
-
-
+import ErrorPage from "./ErrorPage/error";
+import Home from "./Route/Home";
+import CounterComponent from "./Counter/CounterComponent";
 
 const objectRouter = createBrowserRouter([
-  
-    {
-    path: '/',
-    element: <Root />,
-    
+  {
+    path: "/",
+    element: <Home />,
   },
   {
     path: "/counter",
     element: <CounterComponent />,
   },
-  
+
   {
     path: "*",
-    element: <h2> 
-      Oops....404 Error Page not found 😢 
-    <br/> 
-    <br/>
-    <h6>Click here to return to <Link to= "/counter">Counter App</Link></h6>
-    </h2>
-  }
+    element: <ErrorPage />,
+  },
 ]);
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-    <RouterProvider router={objectRouter}></RouterProvider>
+      <RouterProvider router={objectRouter}></RouterProvider>
     </>
-  )
+  );
 }
 
-
 export default App;
-
-
-
-
-
-

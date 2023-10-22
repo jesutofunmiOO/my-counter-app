@@ -11,7 +11,7 @@
 }
 
 a {
-  font-weight:400;
+  font-weight: 400;
   color: #646cff;
   text-decoration: initial;
 }
@@ -22,9 +22,8 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: linear-gradient( rgb(190, 221, 246), rgb(221, 160, 221));
+  background-image: linear-gradient(rgb(190, 221, 246), rgb(221, 160, 221));
   overflow-x: hidden;
- 
 }
 
 h1 {
@@ -39,12 +38,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  cursor:pointer;
+  cursor: pointer;
   transition: border-color 0.25s;
   background-color: #e478c9;
 }
 button:hover {
-  background-color:  rgb(190, 221, 246);
+  background-color: rgb(190, 221, 246);
   border-color: #1f2283;
 }
 button:focus,
@@ -54,29 +53,12 @@ button:focus-visible {
 #root {
   max-width: inherit;
   margin: 0 auto;
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 
-.card {
-  background-color: rgb(221, 160, 221, 0.5);
-  border-radius: 15px;
-  display: grid;
-  justify-content: center;
-  color: #000;
-  font-size: larger;
-  max-width: 100%;
-  min-width: 320px;
-  padding: 2em;
-}
-.MyApp {
-  background-color: rgb(221, 160, 221);
-  padding-inline: 50px;
-  border-radius: 20px;
-  display: grid;
-  justify-content: center;
-  max-width: 100%;
-  overflow-x: hidden;
+.button-container {
+  margin: 1.5rem;
 }
 
 @media (prefers-color-scheme: light) {
